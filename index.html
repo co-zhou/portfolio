@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jordan Ellis — Software Engineer</title>
-<meta name="description" content="Portfolio of Jordan Ellis, software engineer.">
+<title>Corey Zhou — Functional Verification Engineer</title>
+<meta name="description" content="Portfolio of Corey Zhou, functional verification engineer.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header class="site-header">
-  <a class="brand" href="#top">Jordan Ellis</a>
   <nav class="site-nav">
     <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
@@ -25,87 +26,87 @@
 
   <!-- ============ HERO ============ -->
   <section class="hero">
-    <p class="hero-note">// EDIT ME — see README for how to customize this page</p>
-    <h1>Jordan Ellis</h1>
-    <p class="hero-role">Software Engineer</p>
+    <h1>Corey Zhou</h1>
+    <p class="hero-role">Functional Verification Engineer</p>
     <p class="hero-bio">
-      Backend-leaning full-stack engineer based in Oakland, CA. I build
-      distributed systems, developer tooling, and APIs, with a focus on
-      reliability and clear interfaces.
+      Computer engineering graduate focused on functional verification,
+      with hands-on experience verifying a RISC-V processor using
+      constrained-random testing and SystemVerilog assertions. I also
+      build full-stack software end to end, and bring the same rigor for
+      testing and debugging to both.
     </p>
     <div class="hero-links">
-      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="mailto:you@example.com">Email</a>
-      <a href="resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
     </div>
   </section>
 
   <!-- ============ PROJECTS ============ -->
   <section class="projects" id="projects">
     <h2>Projects</h2>
-
+ 
     <article class="project">
       <div class="project-index">01</div>
       <div class="project-body">
-        <h3>Real-time order-matching engine</h3>
+        <h3>Pipelined Processor</h3>
         <p>
-          A price-time priority matching engine handling roughly 4,000
-          orders per second in simulation, with a WebSocket feed for live
-          order book updates.
+          A pipelined processor implemented in Verilog, with a hazard
+          detection unit, branch buffer, and two-way branch predictor to
+          resolve data and control hazards, plus a write-back cache and
+          ALU verified against a full instruction-level testbench suite.
         </p>
         <ul class="project-tags">
-          <li>Go</li>
-          <li>Redis</li>
-          <li>WebSockets</li>
+          <li>Verilog</li>
+          <li>ModelSim</li>
+          <li>Digital Design</li>
         </ul>
         <div class="project-links">
-          <a href="#" target="_blank" rel="noopener">Code</a>
-          <a href="#" target="_blank" rel="noopener">Write-up</a>
+          <a href="https://github.com/co-zhou/portfolio/tree/main/Circuit%20Design/Pipelined%20Processor" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
     </article>
-
+ 
     <article class="project">
       <div class="project-index">02</div>
       <div class="project-body">
-        <h3>Zero-downtime migration CLI</h3>
+        <h3>Assertion &amp; Constrained-Random Verification</h3>
         <p>
-          A migration tool that diffs schema state and generates
-          reversible, dependency-ordered migration steps for Postgres.
+          A constrained-random test generator paired with a custom
+          assembler to drive a processor DUT through corner-case
+          instruction sequences, with SystemVerilog assertions checking
+          pipeline correctness during simulation.
         </p>
         <ul class="project-tags">
+          <li>SystemVerilog</li>
           <li>Python</li>
-          <li>Postgres</li>
-          <li>Click</li>
+          <li>SVA</li>
         </ul>
         <div class="project-links">
-          <a href="#" target="_blank" rel="noopener">Code</a>
+          <a href="https://github.com/co-zhou/portfolio/tree/main/Circuit%20Design/Assertion%20and%20Constrained%20Random%20Verification" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
     </article>
-
+ 
     <article class="project">
       <div class="project-index">03</div>
       <div class="project-body">
-        <h3>Offline-first notes app</h3>
+        <h3>Carry Skip Adder</h3>
         <p>
-          A notes app with CRDT-backed sync, so edits made offline merge
-          cleanly across devices without a server round-trip.
+          A carry-skip adder designed and characterized at the
+          transistor level with HSPICE simulations sweeping voltage and
+          temperature to analyze best and worst case propagation delay and average
+          power.
         </p>
         <ul class="project-tags">
-          <li>TypeScript</li>
-          <li>IndexedDB</li>
-          <li>CRDTs</li>
+          <li>HSPICE</li>
+          <li>SUE</li>
+          <li>Circuit Design</li>
         </ul>
         <div class="project-links">
-          <a href="#" target="_blank" rel="noopener">Code</a>
-          <a href="#" target="_blank" rel="noopener">Live demo</a>
+          <a href="https://github.com/co-zhou/portfolio/tree/main/Circuit%20Design/Carry%20Skip%20Adder" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
     </article>
-
-    <p class="projects-more">Add more projects by copying a <code>&lt;article class="project"&gt;</code> block in index.html.</p>
+ 
   </section>
 
   <!-- ============ SKILLS ============ -->
@@ -115,30 +116,49 @@
     <div class="skill-group">
       <h3>Languages</h3>
       <ul class="skill-list">
-        <li>TypeScript</li>
-        <li>Go</li>
+        <li>C/C++</li>
         <li>Python</li>
+        <li>Java</li>
+        <li>JavaScript/TypeScript</li>
+        <li>Verilog/SystemVerilog</li>
+      </ul>
+    </div>
+
+    <div class="skill-group">
+      <h3>Hardware Simulation &amp; Verification</h3>
+      <ul class="skill-list">
+        <li>UVM</li>
+        <li>Constrained-Random Verification</li>
+        <li>SystemVerilog Assertions (SVA)</li>
+        <li>Functional Coverage</li>
+        <li>ModelSim</li>
+        <li>HSPICE</li>
+        <li>SUE</li>
+      </ul>
+    </div>
+
+    <div class="skill-group">
+      <h3>Frameworks &amp; Libraries</h3>
+      <ul class="skill-list">
+        <li>MongoDB</li>
         <li>SQL</li>
-      </ul>
-    </div>
-
-    <div class="skill-group">
-      <h3>Frameworks &amp; libraries</h3>
-      <ul class="skill-list">
-        <li>React</li>
         <li>Node.js</li>
-        <li>Django</li>
+        <li>React/Next.js</li>
+        <li>NGINX</li>
+        <li>Jest</li>
+        <li>TensorFlow/Keras</li>
+        <li>Scikit-learn</li>
       </ul>
     </div>
 
     <div class="skill-group">
-      <h3>Infrastructure &amp; tools</h3>
+      <h3>Infrastructure &amp; Tools</h3>
       <ul class="skill-list">
-        <li>PostgreSQL</li>
-        <li>Redis</li>
         <li>Docker</li>
-        <li>Kubernetes</li>
+        <li>Jenkins</li>
+        <li>AWS</li>
         <li>Terraform</li>
+        <li>Git</li>
       </ul>
     </div>
   </section>
@@ -146,18 +166,18 @@
   <!-- ============ CONTACT ============ -->
   <section class="contact" id="contact">
     <h2>Contact</h2>
-    <p>Open to backend and infrastructure roles. Fastest reply is email.</p>
+    <p>Open to hardware and software roles. Fastest reply is email.</p>
     <div class="hero-links">
-      <a href="mailto:you@example.com">you@example.com</a>
-      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:coreyzh@gmail.com">coreyzh@gmail.com</a>
+      <a href="https://github.com/co-zhou" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/corey-zhou-2a7781231" target="_blank" rel="noopener">LinkedIn</a>
     </div>
   </section>
 
 </main>
 
 <footer class="site-footer">
-  <p>Built with plain HTML/CSS/JS · <a href="https://github.com/yourusername/yourrepo" target="_blank" rel="noopener">view source</a></p>
+  <p>Built with plain HTML/CSS/JS · <a href="https://github.com/co-zhou/portfolio" target="_blank" rel="noopener">view source</a></p>
 </footer>
 
 </body>
