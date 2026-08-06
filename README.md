@@ -1,7 +1,7 @@
 # Corey Zhou
 **Computer Engineering @ UC Santa Barbara · Functional Verification Engineer**
 
-Focused on functional verification of digital designs. My verification work centers on RISC-V processor designs: constrained-random assembly test generation, SystemVerilog assertions, coverage-driven testbenches, and per-module testbenches that verify every stage of a pipelined CPU. I also have full-custom IC design experience (HSpice, schematics, PVT corners) and apply AI/Machine Learning to design and test automation.
+Focused on functional verification of digital designs. My verification work centers on processor designs: constrained-random assembly test generation, SystemVerilog assertions, coverage-driven testbenches, and per-module testbenches that verify every stage of a pipelined CPU. I also have full-custom IC design experience (HSpice, schematics, PVT corners) and applied AI/Machine Learning to design and test automation.
 
 **Contact:** coreyzh@gmail.com · [LinkedIn](https://www.linkedin.com/in/corey-z-2a7781231/) · [Resume](Resume.pdf)
 
