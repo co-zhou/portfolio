@@ -1,5 +1,9 @@
-This is a simplified implementation of a passenger train web app. The application is initialized with random fake data stored in a MySQL database. New users when opening the homepage will see a list of all the train routes.
-You can register a new user or login to an existing user and flask-session will authenticate and save the session. When logged in on the homepage, you can add a train route to your profile. On the users page, you can view the
-routes you have added and can remove them at the bottom.
+# Rail Web App
 
-Run the docker-compose.yml to build docker images
+A full-stack passenger train web application built with Flask and MySQL, deployed with Docker Compose and Nginx.
+
+The app is initialized with random fake train route data in a MySQL database. Visitors can browse and search all train routes (departure, arrival, times, price) on the homepage. Users can register or log in - passwords are hashed with bcrypt and sessions are managed with Flask-Session - and logged-in users can save train routes to their profile and remove them from a personal "My Routes" page that also totals the cost of saved trips.
+
+## Run
+
+`docker-compose up` (the `init/` service seeds the database with fake data)

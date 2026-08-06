@@ -1,2 +1,11 @@
-Stock market is pulled from yahoo finance and is preproccessed before training the LSTM model. The preprocessing consists of normalizing and reserving the earlier data as training data and the recent data as validation data.
-The data is then cascaded based on the timestep size. It is best to use a few years worth of data because data from decades earlier does not represent the present day very well. A simple model with one LTSM layer with 32 nodes and one dense layer works well because predicting one stock price is considered a simple problem that requires a simple model. This avoids overfitting and has a better performance than adding dropout and regularizer to a more complex model The program will automatically save the weights with the lowest validation loss and then predict a number of forecast days.
+# Stock Market Prediction
+
+An LSTM (Long Short-Term Memory) neural network that forecasts S&P 500 stock prices.
+
+Stock market data (Open/High/Low/Close) is pulled live from Yahoo Finance, then preprocessed: features are normalized with MinMax scaling, older data is used for training and recent data for validation, and the series is cascaded into time-step windows that feed the LSTM. A deliberately simple model - one LSTM layer with 32 nodes and one dense layer - is used because predicting a single price series is a simple problem that benefits from avoiding overfitting. The program saves the weights with the lowest validation loss and then forecasts the next day, plotting the results as candlestick charts.
+
+This project demonstrates time-series forecasting, LSTM architecture design, and a practical end-to-end ML pipeline from data acquisition to prediction.
+
+## Run
+
+`python SPX.py`

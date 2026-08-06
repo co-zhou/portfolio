@@ -1,23 +1,64 @@
-# About Me
-<img align="right" width="170" height="220" src="https://user-images.githubusercontent.com/95654612/148268886-b29e96f8-a525-4616-b808-6bfdf072a633.JPEG">
-My experience in computer engineering at University of California, Santa Barbara focused on integrated circuit design and using AI/Machine Learning to solve problems. I have over eight years experience in computer programming mainly in C++, Javascript, and Python. My ability to collaborate with others to complete a large project is seen through the published CK-12 textbooks and my Capstone project. These projects also taught me how to work remotely and how to create a product that ensures quality for the user. These projects had their own editors, APIs, and interfaces, so I was able to learn very quickly and produce results within the first month.<br/><br/>
-I have a passion for using technology to make a positive impact on the world. Advancing technology is important to solve the biggest threats the world sees today. I also strive to ensure no corners get cut during the design process to ensure maximum quality and reliability.<br/><br/>
-If you have any job or research opportunites in hardware or sofware, contact me at coreyzh@gmail.com.
+# Corey Zhou
+**Computer Engineering @ UC Santa Barbara · Functional Verification Engineer**
 
-# Math Interactives Internship, CK-12 Foundation
+Focused on functional verification of digital designs. My verification work centers on RISC-V processor designs: constrained-random assembly test generation, SystemVerilog assertions, coverage-driven testbenches, and per-module testbenches that verify every stage of a pipelined CPU. I also have full-custom IC design experience (HSpice, schematics, PVT corners) and apply AI/Machine Learning to design and test automation.
 
-CK-12 is a non profit organization that has made free digital interactive textbooks for students ranging from kindergarten to high school. I designed many of the interactive programs in the middle and high school math textbooks. The interactives were made with Geogebra, which is a math calculator/editor with a Javascript-based API. I was also responsible for testing and quality assurance for other content made by other interns.
+**Contact:** coreyzh@gmail.com · [LinkedIn](https://www.linkedin.com/in/corey-z-2a7781231/) · [Resume](Resume.pdf)
 
-[Story Creation](https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-6-for-ccss/section/3.9/primary/lesson/dividing-fractions-with-diagrams-msm6-ccss/)
+---
 
-[Factor Burst](https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-6-for-ccss/section/6.9/primary/lesson/distributive-property-4424293-msm6-ccss/)
+## Highlight Projects
 
-[Sudoku Comparison Puzzle](https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-6-for-ccss/section/8.1/primary/lesson/comparing-integers-4424305-msm6-ccss/)
+- **[Pipelined Processor](Circuit%20Design/Pipelined%20Processor/)** - Complete 5-stage 32-bit RISC-V processor in Verilog with hazard unit, branch predictor, cache, and individual testbenches for every module.
+- **[Assertion and Constrained Random Verification](Circuit%20Design/Assertion%20and%20Constrained%20Random%20Verification/)** - Constrained-random assembly test generator and RISC-V assembler that stress the processor design with randomized arithmetic, branches, and jumps.
+- **[Carry Skip Adder](Circuit%20Design/Carry%20Skip%20Adder/)** - Full-custom 16-bit low-voltage swing carry skip adder through the complete IC flow: HSpice simulation, SUE schematics, waveform and PVT corner analysis.
 
-[Rubik's Cube](https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-7-for-ccss/section/6.5/primary/lesson/surface-area-of-cubes-and-rectangular-prisms-4424737-msm7-ccss/)
+---
 
-# Senior Capstone Project
+## Verification & Hardware
 
-Every senior in the engineering department was tasked to complete an engineering project in one school year. My team was given the project to create an autonomous marine vehicle that will automatically move towards and stay near coordinates given by the user. I was mainly in charge of the cellular communication and the main software program inside the system. Due to Covid-19, most of the project was completed remotely with only the final contruction being in person.
+| Project | Description |
+|---|---|
+| [Pipelined Processor](Circuit%20Design/Pipelined%20Processor/) | 5-stage 32-bit RISC-V CPU in Verilog: hazard detection/forwarding, 2-bit branch predictor, 32KB writeback cache, multiplier, per-module testbenches |
+| [Assertion and Constrained Random Verification](Circuit%20Design/Assertion%20and%20Constrained%20Random%20Verification/) | Python toolchain that generates constrained-random RISC-V assembly programs and assembles them to machine code for processor verification |
+| [Carry Skip Adder](Circuit%20Design/Carry%20Skip%20Adder/) | Full-custom 16-bit low-voltage carry skip adder using pass-transistor logic, sense amplifiers, and complementary domino logic |
 
-[Anchorless](https://sites.google.com/view/anchorless/home)
+## Machine Learning
+
+| Project | Description |
+|---|---|
+| [PyEDA Monomial Learning](Python/PyEDA%20Monomial%20Learning/) | SAT-based root-cause analysis: learns the exact feature combination causing an error from positive/negative test samples |
+| [Neural Networks](Python/Neural%20Networks/) | CNN (Keras/TensorFlow) that classifies silicon wafer defect types from images for automated inspection |
+| [Stock Market Prediction](Python/Stock%20Market%20Prediction/) | LSTM network that forecasts S&P 500 prices from live Yahoo Finance data |
+| [Decision Tree Classifier](Python/Decision%20Tree%20Classifier/) | Decision tree implemented from scratch using entropy impurity minimization |
+| [Supervised Learning](Python/Supervised%20Learning/) | Comparison of six scikit-learn classifiers on a Pokémon stat classification task |
+| [Unsupervised Learning](Python/Unsupervised%20Learning/) | K-Means, Mean Shift, and DBSCAN clustering of glass samples with PCA |
+| [Linear Classifier](Python/Linear%20Classifier/) | 3-class linear classifier implemented from scratch using centroid-based decision boundaries |
+
+## Software Engineering
+
+| Project | Description |
+|---|---|
+| [SlamOptix](https://slamoptix.com) | E-commerce website for selling fiber optic enclosures and accessories, built with an AI-assisted development pipeline. Stack: Next.js/React, Node.js, MongoDB, Nginx, Jest |
+| [Ping - Device Monitoring App](Web%20App%20Development/Ping/) | Multi-container web app (Next.js/React, Node.js, MariaDB, Nginx) that continuously pings and monitors devices |
+| [Rail Web App](Web%20App%20Development/Rail%20Web%20App/) | Flask + MySQL train route app with bcrypt auth, Flask-Session, and containerized deployment |
+| [Website Test Automation](Web%20App%20Development/Website%20Test%20Automation/) | SeleniumBase end-to-end browser tests automating login and site navigation |
+| [Pentest](Web%20App%20Development/Pentest/) | Scapy-based DHCP fuzzer that probes every option field for server vulnerabilities |
+| [Unreal Engine Projects](Unreal%20Engine/) | First-person movement system and game mode prototype built with Blueprints |
+| [C++ Projects](C%2B%2B/) | Data structures and algorithms built from scratch: graphs, two-level hash tables, expression solver, word search |
+
+---
+
+## Skills
+
+- **Functional Verification:** constrained-random testing, SystemVerilog Assertions (SVA), coverage-driven verification, UVM (coursework/self-study), ModelSim
+- **RTL/HDL:** SystemVerilog, Verilog, MIPS32 and RISC-V ISA
+- **Custom IC Design:** HSpice, SUE schematics, pass-transistor and complementary domino logic, PVT corner analysis
+- **ML for EDA:** SAT-based root-cause analysis, ML-guided coverage closure, wafer defect classification
+- **Programming:** Python, C++, JavaScript/TypeScript, SQL, Bash
+- **Web:** Next.js/React, Flask, Node.js, Docker, Nginx, MariaDB/MySQL
+
+## Additional Experience
+
+- **Math Interactives Internship, CK-12 Foundation** - Designed interactive math programs for K-12 textbooks using GeoGebra's JavaScript API; responsible for testing and QA of other interns' content.
+- **Senior Capstone Project (Anchorless)** - Lead cellular communication and main software for an autonomous marine vehicle that navigates to user-specified coordinates.

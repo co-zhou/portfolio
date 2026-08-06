@@ -1,9 +1,10 @@
-# Relevant Classes:
+# C++ Projects
 
-CS 16 - Problem Solving I
+Data structures and algorithms projects implemented in C++. Each project is built from scratch (no standard containers beyond what the assignment allowed) to demonstrate a strong grasp of fundamental computer science concepts and memory management.
 
-CS 24 - Problem Solving II
+## Relevant Classes
 
-CS 32 - Object Oriented Programming
-
-CS 130A - Data Structures and Algorithms I
+- CS 16 - Problem Solving I
+- CS 24 - Problem Solving II
+- CS 32 - Object Oriented Programming
+- CS 130A - Data Structures and Algorithms I

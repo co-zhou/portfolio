@@ -1,7 +1,9 @@
-Run the program using ./wordsearchcount input
+# Word Search Count
 
-This program first stores how many times each word appears in each text document. 
-Then you can input any word and the program will either print out every file with its word count or will say the word was not found. 
-The "input" command line argument can be any directory that contains only text files.
-The dictionary of words is an array of word objects, each containing the word name and a pointer to a linked list object.
-The data this list stores is a file (itemtype) object that contains a file name and the count of the specific word in that file.
+A text-analysis program that counts how many times each word appears across a directory of text documents. The user can query any word and see every file that contains it along with its count, or be told the word was not found.
+
+The data structures are built from scratch: an array of word objects where each word holds a pointer to a linked list of file/count entries. This demonstrates manual linked list and array-based data structure design.
+
+## Run
+
+`./wordsearchcount <directory-of-text-files>`

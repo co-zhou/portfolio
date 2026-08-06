@@ -1,11 +1,16 @@
-# First Person Test Project
-Blueprint implementation of basic first person movement and interaction without using the first person game template provided by Epic Games
+# Unreal Engine Projects
 
-[Video Demo](https://youtu.be/MfABYzvLA_U)\
+Blueprints and prototypes built in Unreal Engine.
+
+## First Person Test Project
+
+A first-person movement and interaction system built entirely with Blueprints, implemented from scratch without using Epic's First Person game template. Covers player movement, camera controls, and world interaction.
+
+[Video Demo](https://youtu.be/MfABYzvLA_U)
 [Project Download](https://drive.google.com/file/d/1g-SqA-gi7USJRWO9OORghSDoAJuUSQYf/view?usp=sharing)
 
-# Seeds of Origin Prototype
-Prototype for work-in-progress Seeds of Origin that shows switching between different game modes
+## Seeds of Origin Prototype
 
-[Video Demo](https://youtu.be/_jzXVXFHNDM)\
-[Project Download](https://drive.google.com/file/d/1lTBwGkDBaJcwvpy3pIqh07pIzALlwRVC/view?usp=sharing)
+A prototype for the work-in-progress game Seeds of Origin that demonstrates switching between different game modes, showing core game architecture and state management in Blueprints.
+
+[Video Demo](https://youtu.be/_jzXVXFHNDM)
