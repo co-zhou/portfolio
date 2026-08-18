@@ -9,9 +9,9 @@ Focused on functional verification of digital designs. My verification work cent
 
 ## Highlight Projects
 
-- **[Pipelined Processor](Hardware%20Design/Pipelined%20Processor/)** - Complete 5-stage 32-bit RISC-V processor in Verilog with hazard unit, branch predictor, cache, and individual testbenches for every module.
-- **[Assertion and Constrained Random Verification](Hardware%20Design/Assertion%20and%20Constrained%20Random%20Verification/)** - Constrained-random assembly test generator and RISC-V assembler that stress the processor design with randomized arithmetic, branches, and jumps.
-- **[Carry Skip Adder](Hardware%20Design/Carry%20Skip%20Adder/)** - Full-custom 16-bit low-voltage swing carry skip adder through the complete IC flow: HSpice simulation, SUE schematics, waveform and PVT corner analysis.
+- **[Pipelined Processor](Circuit%20Design/Pipelined%20Processor/)** - Complete 5-stage 32-bit RISC-V processor in Verilog with hazard unit, branch predictor, cache, and individual testbenches for every module.
+- **[Assertion and Constrained Random Verification](Digital%20Design%20Verification/Assertion%20and%20Constrained%20Random%20Verification/)** - Constrained-random assembly test generator and RISC-V assembler that stress the processor design with randomized arithmetic, branches, and jumps.
+- **[Carry Skip Adder](Circuit%20Design/Carry%20Skip%20Adder/)** - Full-custom 16-bit low-voltage swing carry skip adder through the complete IC flow: HSpice simulation, SUE schematics, waveform and PVT corner analysis.
 
 ---
 
@@ -19,9 +19,9 @@ Focused on functional verification of digital designs. My verification work cent
 
 | Project | Description |
 |---|---|
-| [Pipelined Processor](Hardware%20Design/Pipelined%20Processor/) | 5-stage 32-bit RISC-V CPU in Verilog: hazard detection/forwarding, 2-bit branch predictor, 32KB writeback cache, multiplier, per-module testbenches |
-| [Assertion and Constrained Random Verification](Hardware%20Design/Assertion%20and%20Constrained%20Random%20Verification/) | Python toolchain that generates constrained-random RISC-V assembly programs and assembles them to machine code for processor verification |
-| [Carry Skip Adder](Hardware%20Design/Carry%20Skip%20Adder/) | Full-custom 16-bit low-voltage carry skip adder using pass-transistor logic, sense amplifiers, and complementary domino logic |
+| [Pipelined Processor](Circuit%20Design/Pipelined%20Processor/) | 5-stage 32-bit RISC-V CPU in Verilog: hazard detection/forwarding, 2-bit branch predictor, 32KB writeback cache, multiplier, per-module testbenches |
+| [Assertion and Constrained Random Verification](Digital%20Design%20Verification/Assertion%20and%20Constrained%20Random%20Verification/) | Python toolchain that generates constrained-random RISC-V assembly programs and assembles them to machine code for processor verification |
+| [Carry Skip Adder](Circuit%20Design/Carry%20Skip%20Adder/) | Full-custom 16-bit low-voltage carry skip adder using pass-transistor logic, sense amplifiers, and complementary domino logic |
 
 ## Machine Learning
 
